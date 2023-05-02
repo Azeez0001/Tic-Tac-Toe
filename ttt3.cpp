@@ -12,8 +12,8 @@ int main()
     Player player2(2);
 
     // Enter name
-    player1.setPlayerName(player1.returnHierachy());
-    player2.setPlayerName(player2.returnHierachy());
+    player1.setPlayerName(player1.getPriority());
+    player2.setPlayerName(player2.getPriority());
 
     do
     {

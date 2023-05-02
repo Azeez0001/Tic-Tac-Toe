@@ -135,7 +135,7 @@ void chooseCustomCharacter(Player &player)
     // If not, use default game character
     else
     {
-        if (player.returnHierachy() - 1)
+        if (player.getPriority() - 1)
             // Player 2
             player.character = 'O';
         else
